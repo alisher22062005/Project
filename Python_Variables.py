@@ -60,5 +60,121 @@ x=y=z="Orange"
 def myfunc():
     global x
     x="fantastic"
+
+#Variable names
+
+ #example1
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+
+#example2
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+
+#Assign Multiple Values
+
+#example1
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#example2
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#example3
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#Output Variables
+
+#example1
+x = "Python is awesome"
+print(x)
+
+#example2
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+#example3
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+#example4
+x = 5
+y = 10
+print(x + y)
+
+#example5
+x = 5
+y = "John"
+print(x + y)
+
+#Global Varibales
+
+#example1
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+#example2
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+#example3
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+#example4
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+
+
+
+
+
+
+    
+
   
 
