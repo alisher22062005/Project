@@ -4,9 +4,11 @@ if 5>2: # example1
 if 5>2: # example2
     print("Five is greater than two!")
 if 5>2:
-    print("Five is greater thifan two!")
+    print("Five is greater than  two!")
 
-print("Hello World") #exercise1
+#exercise1
+print("Hello World") 
 
-if 5>2:#exercise2
+#exercise2
+if 5>2:
     print("YES")
